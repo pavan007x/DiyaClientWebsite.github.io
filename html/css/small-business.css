@@ -1,0 +1,224 @@
+@import url(http://fonts.googleapis.com/css?family=Marcellus+SC);
+
+/*font-family: 'Marcellus SC', serif;*/
+
+body {
+	margin-top: 0px; /* adjust this if the height of the menu bar changes */
+	font-family:Calibri;
+	/*font-family:"Segoe UI";*/
+	color:#3b3b3b;
+}
+.navbar-fixed-top .nav {
+	padding: 15px 0;
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*.nav > li > a {
+  padding: 12px 35px 12px 35px;
+}*/
+.navbar-default {
+  background-color: #00aeef;
+  border:none;
+  border-radius:0px;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #005d80;
+}
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #005d80;
+  }
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #005d80;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+  	font-size:19px;
+	text-transform:uppercase;
+}
+footer {
+	padding: 25px;
+	background-color:#00aeef;
+	margin:20px 0 0 0px;
+	color:#FFF;	
+}
+.col-md-4{
+	float:right;
+}
+.bg-primary{
+	background-color:#ededed;
+	padding:10px;
+	color:#000;
+	font-size:20px;
+	text-align:center;
+}
+h1 {
+	font-family: 'Marcellus SC', serif;
+	color:#000;
+}
+h3{
+	margin-top:-12px;
+}
+.home_box1{
+	width:100%;
+	background-color:#eaeaea;
+	padding:20px;
+	margin:0 0 25px 0px;
+}
+.center{
+	display:table;
+	margin:0 auto;
+}
+.sidebar {
+	width:100%;
+	background-color:#eaeaea;
+	padding:6px;
+}
+.sidebar h1{
+	width:100%;
+	font-family: 'Marcellus SC', serif;
+	color:#0165cc;
+	font-size:25px;
+	border-bottom:double 3px #d2d2d2;
+	padding:0 0 24px 0px;
+	line-height:0px;
+}
+
+ul.sidebar {
+	width:100%;
+	margin:8px 0 25px 0px;
+}
+ul.sidebar li {
+	width:100%;
+	padding:6px 0 6px 18px;
+	background:url(../images/arrow.png) 0 14px no-repeat;
+	color:#000;
+	text-decoration:none;
+	list-style-type:none;
+	border-bottom:1px dashed #d2d2d2;
+}
+ul.sidebar li a{
+	color:#000;
+	text-decoration:none;
+}
+ul.sidebar li a:hover{
+	color:#00a2de;
+	text-decoration:underline;
+}
+.sidebar_img{
+	max-height:100%;
+	height:auto;
+	margin:0 0 6px 0px;
+}
+.body_img{
+	float:left;
+	margin:0 15px 0px 0px;
+}
+.heading1{
+	width:100%;
+	font-family: 'Marcellus SC', serif;
+	color:#000;
+	font-size:25px;
+	border-bottom:double 3px #d2d2d2;
+	padding:0 0 6px 0px;
+	margin:15px 0 15px 0px;
+}
+.back-to-top {
+	position: fixed;
+	bottom: 2em;
+	right: 1em;
+	text-decoration: none;
+	color: #000000;
+	font-size: 12px;
+	display:none;
+	background:url(../images/arrow2.png)0 0px no-repeat;
+	width:43px;
+	height:43px;
+	text-indent:-9999px;
+	opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+	transition: all 0.5s ;
+}
+.back-to-top:hover {
+	opacity: 1;
+    filter: alpha(opacity=1); /* For IE8 and earlier */	
+}
+.q_box1{
+	width:100%;
+	padding:8px;
+	border:solid 1px #e7e7e7;
+	margin:0 0 15px 0px;
+}
+.q_box1 h3{
+	width:100%;
+	font-size:22px;
+	color:#005bd8;
+	border-bottom:1px solid #e7e7e7;
+	padding:0 0 0 0px;
+	line-height:44px;
+}
+.question{
+	width:100%;
+	font-size:22px;
+	color:#000;
+	padding:0 0 0 0px;
+}
+.question span{
+	font-size:30px;
+	font-weight:bold;
+	color:#005bd8;
+}
+.blie_text{
+	color:#0076a2;
+}
+.text1{
+	font-size:24px;
+}
+.sunscreen_left{
+	width:60%;
+	float:left;
+	margin:0 0 20px 0px;
+}
+.sunscreen_right{
+	width:40%;
+	float:right;
+	margin:0 0 20px 0px;
+}
+.blue_font{
+	font-size:20px;
+	color:#005bd8;
+	font-weight:bold;
+}
+.social_media{
+	width:100%;
+	margin:6px 0 6px 0px;
+	float:right;
+}
+.social_media img{
+	float:right;
+	margin:0 10px 6px 0;
+}
+
+@media (max-width: 768px) {
+.sunscreen_left{
+	width:auto;
+	float:none;
+}
+.sunscreen_right{
+	width:auto;
+	float:none;
+}
+
+}
